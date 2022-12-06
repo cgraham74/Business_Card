@@ -1,19 +1,18 @@
 import React from "react";
 
 export default function Skills() {
+  const tech = ["Java", "Spring Boot","RESTful APIs","SQL", "PostgreSQL","JavaScript", "HTML","CSS","JUnit","Git"];
+  const list = tech.map((item, id) => {
+    return (
+      <li key={id}>{item}</li>
+    );
+    
+  });
   return (
     <div className="skills">
       <h4>Tech Stack</h4>
       <ul id="ul-skills">
-        <li>Java</li>
-        <li>Spring Boot</li>
-        <li>JavaScript</li>
-        <li>HTML, CSS</li>
-        <li>SQL, PostgreSQL</li>
-        <li>React</li>
-        <li>RESTful APIs</li>
-        <li>Testing with JUnit</li>
-        <li>Git</li>
+        {list}
       </ul>
     </div>
   );

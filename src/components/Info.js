@@ -1,27 +1,28 @@
 import React from "react";
 import icon from "../images/Icon.png";
 
+
 export default function Info() {
   return (
     <div className="info">
       <h1 className="info-name">Christina Graham</h1>
       <p className="info--title">Full Stack Java Developer</p>
       <a
-        href="http://www.christinagraham.tech"
+        href="https://www.christina-graham.com/projects/"
         className="info-weburl"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
       >
-        christinagraham.tech
+        Project Portfolio
       </a>
 
       <Mailto
-        email="cgraham74@gmail.com"
-        subject="Hello"
-        body="I clicked your business card!"
+        email="christina@christina-graham.com"
+        subject="RE: Business Card"
+        body=" "
       >
         <button className="email">
-          <img src={icon} width="12px" />
+          <img src={icon} width="12px" alt="email" />
           Email
         </button>
       </Mailto>

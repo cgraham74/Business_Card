@@ -5,24 +5,21 @@ export default function About() {
     <div className="about">
       <h4>About</h4>
       <p>
-        As a recent full-stack java developer boot camp graduate, I was voted
-        most likely to "show up early" and most likely to "become a technical
-        trainer" by my fellow learners. The experience was enriching and I
-        enjoyed helping others with any concept they struggled with or just
-        collaborating on implementing a more efficient solution.
+      I am a highly motivated and organized individual who is self-reliant, able to work both 
+      independently and as part of a team, and take on multiple tasks simultaneously. I am 
+      also committed to continual learning and staying up to date with the latest software 
+      development trends and technologies. 
       </p>
       <p>
-        I was successful in my previous career as a pet stylist, where I learned
-        how to thrive in a busy fast-paced environment and the importance that a
-        positive attitude plays in creating a pleasant work atmosphere. The most
-        rewarding aspect of my role was devising clever solutions to overcome
-        day-to-day obstacles.
+      My academic and project-based experience in the software development field
+      includes working with Java, JavaScript, HTML, CSS, RESTful APIs, and SQL. I am also familiar 
+      with frameworks such as React, Spring, and Hibernate. Additionally, I have an 
+      understanding of Agile and Waterfall methodologies. I am proficient in problem-solving, 
+      debugging, and troubleshooting software issues.
       </p>
       <p>
-        I have a solid foundation in time management and communication, which
-        are invaluable skills that I believe are necessary to be successful in
-        any position. My curiosity and passion for self-directed learning aid me
-        in learning new technologies as the interest or need arises.
+      I am confident that my skills and experience will be a great asset to any organization. 
+      I am excited to join a team and be a part of their success.
       </p>
     </div>
   );
